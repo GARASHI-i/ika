@@ -1,0 +1,104 @@
+<DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <title>イカを食べよう！</title>
+  <link rel="stylesheet" href="recommend.css">
+  
+  </head>
+
+  <body>
+  <div id="nutrition">
+  
+     <div class="low-calorie">
+       <div id="icon">
+         <img class="ika-icon" src="img/ika.png">
+       </div>
+       
+       <div class="balloon1-right">
+         <div class="calorie-text">
+           <p id="text">イカは低カロリー！</p>
+           <p>イカは100ｇあたり約90kcal</p>
+           <p>１杯　300ｇで約270kcalと低めです。</p>
+           <p>ただしマヨネーズやバターを加え調理すると</p>
+           <p>高カロリーになるので注意が必要です</p>
+         </div>
+       </div>
+   </div>
+   
+     <div class="high-protein">
+       <div class="balloon2-right">
+         <div class="protein-text">
+           <p id="text">イカは高タンパク！</p>
+           <p>100ｇあたり約18ｇのタンパク質！/p>
+           <p>タンパク質の含有量はプロテイン顔負けレベルです</p>
+           <p>また、イカのタンパク質には多くの必須アミノ酸が</p>
+           <p>含まれており、良質な栄養を摂取できます</p>
+         </div> 
+       </div>
+     </div>
+     
+     <div class="many-vitamin">
+       <div class="balloon3-left">
+         <div class="vitamin-text">
+           <p id="text">複数のビタミン含有！！</p>
+           <p>イカには主要ビタミンがほぼ含まれています</p>
+           <p>ビタミンA・B1・B2・B6・B12・C・ナイアシン</p>
+           <p>特にナイアシンが多く含まれています</p>
+           <p>ナイアシンは皮膚や粘膜の健康維持を助ける働きをします</p>
+         </div> 
+       </div>
+     </div>
+   
+     <div class="abandunt-taurine">
+       <div class="balloon4-left">
+         <div class="taurine-text">
+           <p id="text">豊富なタウリン</p>
+           <p>100ｇあたり766ｍｇのタウリンが入っています</p>
+           <p>１杯300ｇで某栄養ドリンクの２倍の量を摂取出来ます</p>
+           <p>筋肉疲労の回復促進や肝臓の解毒作用促進など</p>
+           <p>タウリンは体にとって重要な働きをします</p>
+         </div> 
+       </div>
+     </div>
+    <div class="link">
+      <a id="btn" href="https://twitter.com/y_wa_y?s=09">→このサイト、イカしてるな！←</a>
+    </div>
+  </div>
+ 
+   <p class="you">あなたは普段、イカを食べますか？</p>
+    <div class="aa">
+    <h1 id="aaa">イカは<br><span class="ab calorie">低カロリー!</span>
+    <span class="ab protein">高タンパク!</span><span class="ab vitamin">多種のビタミン!</span>
+    <span class="ab taurine">タウリン豊富!</span><br>そして何よりも"おいしい!!"<br>
+    ダイエット・筋トレ＿みんなにおすすめ！<BR><span class="ab click">各栄養素については→こちら←</span></h1>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    
+      $(function()
+      {
+        $('.you').fadeOut(4000);
+        $('.aa').fadeIn(5000);
+        $('.aa').click(function()
+        {
+          $('#aaa').stop(true).animate({width: 'toggle'},2000 );
+          $('#nutrition').fadeIn(2300);
+        });
+      });
+    </script>
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
+
+
+
+
+
+

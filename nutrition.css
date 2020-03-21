@@ -1,0 +1,33 @@
+.ika-h1
+{
+ margin-bottom:5em;
+}
+.ika-wrapper
+{
+  padding:1em 8em;
+}
+.container
+{
+  width:50%;
+  margin:0 auto;
+}
+
+img
+{
+  width:100%;
+}
+@media(max-width:1000px)
+{
+  img
+  {
+    width:150%;
+  }
+}
+@media(max-width:670px)
+{
+  img
+  {
+    width:220%;
+  }
+}
+
